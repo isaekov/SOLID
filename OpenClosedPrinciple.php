@@ -6,7 +6,7 @@ class SqlDataViolation {
 
     public function readSql()
     {
-        return ["sql" => ["data"]];
+        return ["data"];
     }
 }
 
@@ -14,7 +14,7 @@ class FileDataViolation {
 
     public function readFile()
     {
-        return ["file" => ["data"]];
+        return ["data"];
     }
 }
 
@@ -40,7 +40,7 @@ class SqlData implements Data {
 
     public function read()
     {
-        return ["sql" => ["data"]];
+        return ["data"];
     }
 }
 
@@ -48,7 +48,7 @@ class FileData implements Data {
 
     public function read() : array
     {
-        return ["file" => ["data"]];
+        return ["data"];
     }
 }
 
